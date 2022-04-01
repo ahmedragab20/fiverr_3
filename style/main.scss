@@ -61,3 +61,20 @@ a {
     }
   }
 }
+.breadcrumb {
+  .breadcrumb-item {
+    a {
+      color: $text_color !important;
+    }
+    &.active {
+      a {
+        color: $main_color !important;
+        font-weight: 600 !important;
+      }
+    }
+  }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: " ";
+}

@@ -75,4 +75,17 @@ a:hover {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.breadcrumb .breadcrumb-item a {
+  color: #707070 !important;
+}
+
+.breadcrumb .breadcrumb-item.active a {
+  color: #194275 !important;
+  font-weight: 600 !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: " ";
+}
 /*# sourceMappingURL=main.css.map */
